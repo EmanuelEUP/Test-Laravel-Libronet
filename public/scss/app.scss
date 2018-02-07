@@ -1,0 +1,22 @@
+/*  -------------  SECCIÓN VARIABLES  ---------------- */
+@import "variables"; 
+/*  -------------  SECCIÓN BASE TEMPLATE  ---------------- */
+@import "templatebase"; 
+/*  -------------  SECCIÓN FUENTE ---------------- */
+@import "fuentes"; 
+
+.login-background{
+
+background-image: url("./../img/bglogin.jpg");
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 100vh;
+
+}
+
+.invisible{
+
+    display: none;
+}
